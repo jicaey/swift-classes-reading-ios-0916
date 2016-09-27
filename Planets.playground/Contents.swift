@@ -73,7 +73,7 @@ class Planet {
 
 let earth2 = Planet(name: "Earth", numberOfMoons: 1, orbitalPeriod: 365.26, hasLife: true)
 let mars2 = Planet(name: "Mars", numberOfMoons: 2, orbitalPeriod: 685.97, hasLife: false)
-
+ 
 func planetInfoObject(planet: Planet) {
     var moonNoun = "moon"
     if planet.numberOfMoons != 1 {
